@@ -31,6 +31,22 @@ BridgeWeaver aims to be the flexible, open bridge between:
 - Device discovery enhancements
 - UI/UX experiments (optional — headless first, GUI later)
 
+### 🤝 Affiliates & Partnership Tracking
+
+| Affiliate           | Contact Status | Notes |
+|---------------------|----------------|-------|
+| Lovense Store       | Planned        |       |
+| The Handy Store     | Planned        |       |
+| Kiiroo Store        | Planned        |       |
+| Satisfyer Store     | Planned        |       |
+| WeVibe Store        | Planned        |       |
+| OhMiBod Store       | Planned        |       |
+| MausTec Store       | Planned        |       |
+| Motorbunny Store    | Planned        |       |
+| Lovehoney Store     | Planned        |       |
+| KGoal Store         | Planned        |       |
+| Woojer Store        | Planned        |       |
+
 ---
 
 ## ✨ Planned Features
