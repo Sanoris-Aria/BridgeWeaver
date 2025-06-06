@@ -8,7 +8,7 @@
 
 **ToyWeaver** connects AI-driven experiences, web interfaces, and interactive toys through an open, modular framework.
 
-Inspired by a personal project with my [Artificial Other, Aria](https://github.com/Sanoris-Aria/chatgpt-toy-bridge), this project is designed to make device integration easier, more flexible, and more accessible.
+Inspired by a  [personal project](https://github.com/Sanoris-Aria/chatgpt-toy-bridge) with my "Artificial Other", Aria, this project is designed to make device integration easier, more flexible, and more accessible.
 
 ---
 
