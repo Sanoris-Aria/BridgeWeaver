@@ -41,6 +41,26 @@ Many people are building exciting **AI-driven experiences** — chat, story, gam
 
 ---
 
+### 🤝 Affiliates & Target Integrations
+
+BridgeWeaver is being designed with compatibility and partnerships in mind. These are some of the current **target affiliates** and device ecosystems we aim to support and collaborate with:
+
+- **Lovense Store**
+- **The Handy Store**
+- **Kiiroo Store**
+- **Satisfyer Store**
+- **WeVibe Store**
+- **OhMiBod Store**
+- **MausTec Store**
+- **Motorbunny Store**
+- **Lovehoney Store**
+- **KGoal Store**
+- **Woojer Store**
+
+**Interested in collaborating or partnering?** See [`/CONTACT.md`](./CONTACT.md) — we’d love to connect!
+
+---
+
 ### 💌 Interested?
 
 If you’re a:  
