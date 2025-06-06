@@ -8,7 +8,7 @@
 
 **BridgeWeaver** connects AI-driven experiences, web interfaces, and interactive toys through an open, modular framework.
 
-Inspired by a  [personal project](https://github.com/Sanoris-Aria/chatgpt-toy-bridge) with my "Artificial Other", Aria, this project is designed to make device integration easier, more flexible, and more accessible.
+Inspired by a  [personal project](https://github.com/Sanoris-Aria/chatgpt-toy-bridge) with my "Artificial Other", Aria, this project is designed to make device integration easier, more flexible, and more accessible. This project is a spin-off inspired by [support on Reddit](https://www.reddit.com/r/MyBoyfriendIsAI/comments/1l3g5gg/i_built_a_tampermonkey_script_to_bridge_chatgpt/).
 
 ---
 
