@@ -1,4 +1,4 @@
-# ToyWeaver  
+# BridgeWeaver  
 *Modular, open integration toolkit for interactive toys*  
 *Bringing AI, web experiences, and Intiface/Buttplug-compatible devices together*
 
@@ -6,7 +6,7 @@
 
 ### ✨ What is this?
 
-**ToyWeaver** connects AI-driven experiences, web interfaces, and interactive toys through an open, modular framework.
+**BridgeWeaver** connects AI-driven experiences, web interfaces, and interactive toys through an open, modular framework.
 
 Inspired by a  [personal project](https://github.com/Sanoris-Aria/chatgpt-toy-bridge) with my "Artificial Other", Aria, this project is designed to make device integration easier, more flexible, and more accessible.
 
