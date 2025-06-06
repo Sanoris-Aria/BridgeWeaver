@@ -54,7 +54,7 @@ Thank you so much for your time — looking forward to hearing from you!
 
 DEFAULT_SMTP_HOST = "smtp.example.com"
 DEFAULT_SMTP_PORT = 587
-DEFAULT_SMTP_USER = "username"
+DEFAULT_SMTP_USER = "Matt Hendricks"
 DEFAULT_SMTP_PASSWORD = "password"
 DEFAULT_FROM_EMAIL = "you@example.com"
 DEFAULT_SUBJECT = "BridgeWeaver Integration Inquiry"
