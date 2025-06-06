@@ -71,6 +71,18 @@ If you’re a:
 
 …I’d love to hear from you! See [`/CONTACT.md`](./CONTACT.md) or open an issue here on GitHub.
 
+### 🔧 Outreach Email Script
+
+A helper script (`send_emails.py`) can send personalized outreach emails to affiliate contacts.
+It loads a list of entries from `.yaml`, `.csv`, or `.txt` files and sends one email per brand via SMTP.
+
+Example usage:
+
+```bash
+python3 send_emails.py contacts.yaml --smtp-host smtp.example.com --smtp-user USER --smtp-pass PASS --from-addr you@example.com
+```
+
+
 ---
 
 ### 📚 Project Resources
