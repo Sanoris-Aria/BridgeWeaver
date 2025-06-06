@@ -77,6 +77,27 @@ If you’re a:
 
 - [`/ROADMAP.md`](./ROADMAP.md) → Current plans and future features  
 - [`/CONTACT.md`](./CONTACT.md) → How to get in touch / collaborate  
+
+### 📧 Outreach Email Sender
+
+Use `send_outreach_emails.py` to automate sending outreach emails to affiliate contacts. Provide a YAML or CSV file with entries like:
+
+```
+- Brand: Example Brand
+  Email: contact@example.com
+  Greeting: Hi Example Team
+  Source: https://example.com/affiliate
+```
+
+Run with:
+
+```
+python send_outreach_emails.py contacts.yaml --smtp-host smtp.example.com \
+    --smtp-user you --smtp-password secret --from-email you@example.com
+```
+
+Use `--dry-run` to preview without sending.
+
 - [`/LICENSE.md`](./LICENSE.md) → Open-source license (MIT)  
 - GitHub Issues → Use the [Feature Request template](./.github/ISSUE_TEMPLATE/feature_request.md) for ideas & enhancements  
 
