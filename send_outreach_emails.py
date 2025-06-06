@@ -1,8 +1,10 @@
 import argparse
 import csv
 import logging
+import io
 import os
 import smtplib
+import sys
 from email.message import EmailMessage
 from typing import List, Dict
 
@@ -115,7 +117,14 @@ def main() -> None:
     parser.add_argument("--log-file", default=None, help="Optional log file path")
     args = parser.parse_args()
 
-    logging.basicConfig(level=logging.INFO, filename=args.log_file, format="%(message)s")
+    # Explicitly set UTF-8 encoding for the log file using a FileHandler
+    if args.log_file:
+        file_handler = logging.FileHandler(args.log_file, encoding="utf-8")
+        file_handler.setFormatter(logging.Formatter("%(message)s"))
+        logging.getLogger().addHandler(file_handler)
+        logging.getLogger().setLevel(logging.INFO)
+    else:
+        logging.basicConfig(level=logging.INFO, format="%(message)s")
 
     contacts = load_contacts(args.input_file)
 
@@ -132,8 +141,9 @@ def main() -> None:
             logging.warning("Skipping entry without email: %s", entry)
             continue
         body = create_message(entry)
+        # Updated the dry-run logic to log the full email message to the log file
         if args.dry_run:
-            logging.info("[DRY RUN] Would send email to %s (%s)", entry.get("Brand"), to_email)
+            logging.info("[DRY RUN] Would send email to %s (%s) with message:\n%s", entry.get("Brand"), to_email, body)
             continue
         send_email(smtp, args.from_email, to_email, args.subject, body)
         logging.info("Sent email to %s (%s)", entry.get("Brand"), to_email)
@@ -141,6 +151,11 @@ def main() -> None:
     if smtp is not None:
         smtp.quit()
 
+
+# Ensure logging uses UTF-8 encoding to avoid character encoding issues
+# Set UTF-8 encoding for stdout and stderr
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
+sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding="utf-8")
 
 if __name__ == "__main__":
     main()
