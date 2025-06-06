@@ -1,6 +1,6 @@
 # BridgeWeaver  
 *Modular, open integration toolkit for interactive toys*  
-*Bringing AI, web experiences, and Intiface/Buttplug-compatible devices together*
+*Bringing AI, web experiences, and Intiface/Buttplug.io-compatible devices together*
 
 ---
 
