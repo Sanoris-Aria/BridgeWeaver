@@ -35,8 +35,8 @@ BridgeWeaver aims to be the flexible, open bridge between:
 
 | Affiliate           | Contact Status | Notes |
 |---------------------|----------------|-------|
-| Lovense Store       | Planned        |       |
-| The Handy Store     | Planned        |       |
+| Lovense Store       | Contacted      |       |
+| The Handy Store     | Contacted      |       |
 | Kiiroo Store        | Planned        |       |
 | Satisfyer Store     | Planned        |       |
 | WeVibe Store        | Planned        |       |
