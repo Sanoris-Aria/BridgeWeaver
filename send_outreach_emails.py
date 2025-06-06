@@ -15,42 +15,48 @@ GITHUB_LINK = "https://github.com/Sanoris-Aria/BridgeWeaver"
 GITHUB_PROFILE_NEW = "https://github.com/Sanoris-Aria"
 GITHUB_PROFILE_ORIGINAL = "https://github.com/Sanoris"
 
-EMAIL_TEMPLATE = """{greeting}
+EMAIL_TEMPLATE = """{greeting},
 
-I’m reaching out because I’m building a new open-source project called BridgeWeaver — a modular integration toolkit that connects AI-driven experiences, web platforms, and interactive devices (including toys) in a flexible, open way.
+I’m reaching out because I’m building a new open-source project called **BridgeWeaver** — a modular integration toolkit that connects AI-driven experiences, web platforms, and interactive devices (including toys) in a flexible, open way.
 
-BridgeWeaver is designed to make it much easier for developers and users to script and personalize their experiences — with a strong focus on partnered experiences and bridging the divide between remote partners and AI-driven companions.
+**BridgeWeaver** is designed to make it much easier for developers and users to script and personalize their experiences — with a strong focus on partnered experiences and bridging the divide between remote partners and AI-driven companions.
 
 You can view the project here: {github_link}
 
-Current integration targets include:
-✅ Buttplug.io & Intiface ecosystem
-✅ Experimental MCP support
-✅ Exploration of direct brand APIs / SDKs — which is why I’m reaching out to you!
+---
 
-Why this could be exciting for your brand:
-Promotes your devices in new emerging markets (AI companion experiences, long-distance relationships, immersive gaming)
+**Current integration targets include:**
+✅ Buttplug.io & Intiface ecosystem  
+✅ Experimental MCP support  
+✅ Exploration of direct brand APIs / SDKs — which is why I’m reaching out to you!  
 
-Expands affiliate revenue potential through connected tools / platforms
+---
 
-Community-driven — open, modular, extensible
+**Why this could be exciting for your brand:**  
+- Promotes your devices in new emerging markets (AI companion experiences, long-distance relationships, immersive gaming)  
+- Expands affiliate revenue potential through connected tools / platforms  
+- Community-driven — open, modular, extensible  
+- Cross-platform — not locked to a single app or ecosystem  
 
-Cross-platform — not locked to a single app or ecosystem
+---
 
-I’d love to:
+**I’d love to:**  
+✅ Confirm API / SDK access & compatibility  
+✅ Explore potential affiliate partnership opportunities  
+✅ Align with your team so we can feature your devices with the best possible support in BridgeWeaver  
 
-✅ Confirm API / SDK access & compatibility
-✅ Explore potential affiliate partnership opportunities
-✅ Align with your team so we can feature your devices with the best possible support in BridgeWeaver
+---
 
 Please feel free to reply here or check out the project repo! I’d be thrilled to collaborate or just open a dialogue — I believe this could drive a lot of shared value as these ecosystems continue to evolve.
 
 Thank you so much for your time — looking forward to hearing from you!
 
-- Matt
-{github_profile_new}
+Best regards,  
+Matt  
+{github_profile_new}  
 {github_profile_original}
 """
+
 
 DEFAULT_SMTP_HOST = "smtp.example.com"
 DEFAULT_SMTP_PORT = 587
