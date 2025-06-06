@@ -11,9 +11,9 @@ try:
 except ImportError:  # pragma: no cover - handle missing yaml gracefully
     yaml = None
 
-GITHUB_LINK = "https://github.com/BridgeWeaver/BridgeWeaver"
-GITHUB_PROFILE_NEW = "https://github.com/BridgeWeaverTeam"
-GITHUB_PROFILE_ORIGINAL = "https://github.com/Sanoris-Aria"
+GITHUB_LINK = "https://github.com/Sanoris-Aria/BridgeWeaver"
+GITHUB_PROFILE_NEW = "https://github.com/Sanoris-Aria"
+GITHUB_PROFILE_ORIGINAL = "https://github.com/Sanoris"
 
 EMAIL_TEMPLATE = """{greeting}
 
