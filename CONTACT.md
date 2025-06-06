@@ -1,6 +1,6 @@
 # Contact
 
-Thank you for your interest in **ToyWeaver**!
+Thank you for your interest in **BridgeWeaver**!
 
 I'm always happy to connect with:
 
