@@ -25,6 +25,8 @@ Inspired by a  [personal project](https://github.com/Sanoris-Aria/chatgpt-toy-br
 🔗 Make device control **easy and scriptable**  
 🧰 Provide **building blocks**, not a locked-in app  
 🤝 Help grow the **developer ecosystem** for interactive devices  
+💞 Bridge the divide between **remote partners** and **AI-driven companions**, empowering deeper, more connected experiences across distance and platforms  
+💞 GitHub Issues → Use the [Feature Request template](./.github/ISSUE_TEMPLATE/feature_request.md) for ideas & enhancements specific to you lover's out there!
 
 ---
 
@@ -32,7 +34,7 @@ Inspired by a  [personal project](https://github.com/Sanoris-Aria/chatgpt-toy-br
 
 Many people are building exciting **AI-driven experiences** — chat, story, games — but connecting those experiences to **physical interaction** remains too complex for most developers.
 
-**ToyWeaver** aims to:  
+**BridgeWeaver** aims to:  
 ✅ Simplify that bridge  
 ✅ Embrace **open standards** wherever possible  
 ✅ Foster an **inclusive, extensible ecosystem**  
@@ -47,7 +49,16 @@ If you’re a:
 - **Developer of related tools**  
 - **Curious collaborator**  
 
-…I’d love to hear from you! See [`/CONTACT.md`](./CONTACT.md) (coming soon) or open an issue here on GitHub.
+…I’d love to hear from you! See [`/CONTACT.md`](./CONTACT.md) or open an issue here on GitHub.
+
+---
+
+### 📚 Project Resources
+
+- [`/ROADMAP.md`](./ROADMAP.md) → Current plans and future features  
+- [`/CONTACT.md`](./CONTACT.md) → How to get in touch / collaborate  
+- [`/LICENSE.md`](./LICENSE.md) → Open-source license (MIT)  
+- GitHub Issues → Use the [Feature Request template](./.github/ISSUE_TEMPLATE/feature_request.md) for ideas & enhancements  
 
 ---
 
