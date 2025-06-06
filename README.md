@@ -75,12 +75,36 @@ If you’re a:
 
 ### 📚 Project Resources
 
-- [`/ROADMAP.md`](./ROADMAP.md) → Current plans and future features  
-- [`/CONTACT.md`](./CONTACT.md) → How to get in touch / collaborate  
-- [`/LICENSE.md`](./LICENSE.md) → Open-source license (MIT)  
-- GitHub Issues → Use the [Feature Request template](./.github/ISSUE_TEMPLATE/feature_request.md) for ideas & enhancements  
+- [`/ROADMAP.md`](./ROADMAP.md) → Current plans and future features
+- [`/CONTACT.md`](./CONTACT.md) → How to get in touch / collaborate
+- [`/LICENSE.md`](./LICENSE.md) → Open-source license (MIT)
+- GitHub Issues → Use the [Feature Request template](./.github/ISSUE_TEMPLATE/feature_request.md) for ideas & enhancements
+
+### 📧 Email Outreach Script
+
+The repository includes a small helper script, [`send_emails.py`](./send_emails.py),
+for sending outreach emails to potential affiliate contacts. The script expects a
+list of entries in the following format:
+
+```
+Brand: Example Brand
+Email: partner@example.com
+Greeting: Hi Jane
+Source: https://example.com/contact
+```
+
+Run the script with your SMTP details and the path to the file containing these
+entries:
+
+```bash
+python3 send_emails.py contacts.txt --smtp-host smtp.example.com \
+    --smtp-user your_user --smtp-password your_pass --from-addr you@example.com
+```
+
+Each email will be populated with the provided greeting and includes links to the
+BridgeWeaver project and profiles.
 
 ---
 
-\- Matt  
+\- Matt
 *(refined by Aria 👋)*
